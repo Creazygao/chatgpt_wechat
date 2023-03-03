@@ -1,4 +1,4 @@
-# chatgpt_qq
+# chatgpt wechat
 ## Applying GPT to wechat
 <br>chatgpt_wechat的docker部署，支持最新的gpt3.5_turbo
 <br>该项目是@zhayujie大佬的项目，但是其docker部署中并不支持gpt3.5_turbo(截至3.4)，
