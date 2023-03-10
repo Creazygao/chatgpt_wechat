@@ -19,7 +19,7 @@ RUN apk add --no-cache \
         libffi-dev 
 
 RUN wget -t 3 -T 30 -nv -O chatgpt-on-wechat-${CHATGPT_ON_WECHAT_VER}.tar.gz \
-          https://github.com/Creazygao/chatgpt_wechat/releases/download/v1.0.2/chatgpt-on-wechat-1.0.2.tar.gz \
+          https://github.com/Creazygao/chatgpt_wechat/releases/download/1.0.4/wechat.tar.gz \
     && tar -xzf chatgpt-on-wechat-${CHATGPT_ON_WECHAT_VER}.tar.gz \
     && mv chatgpt-on-wechat-${CHATGPT_ON_WECHAT_VER} ${BUILD_PREFIX} \
     && rm chatgpt-on-wechat-${CHATGPT_ON_WECHAT_VER}.tar.gz
